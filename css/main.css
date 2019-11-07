@@ -1,0 +1,202 @@
+body{
+	background-color: #000000;
+	overflow: auto;
+}
+
+.center{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+header{
+	background-color: #0f0e0e;
+	height: 90px;
+}
+
+.header-cont{
+	color: #ffffff;
+	width: 200px;
+	margin: 0 auto;
+	padding: 15px 0;
+}
+
+.header-cont img{
+	float: left;
+}
+
+.header-cont p{
+	float: left;
+}
+
+.about{
+	background-color: #0f0e0e;
+}
+
+.about .about-me{
+	width: 500px;
+	margin: 0 auto;
+	background-color: #000000;
+	color: #ffffff;
+	padding: 10px 0;
+}
+
+.about .about-me .about-cont{
+	width: 300px;
+	margin: 0 auto;
+}
+
+.about .about-me .about-cont h1{
+	padding: 0;
+	text-align: left;
+	margin-bottom: 0;
+}
+
+.about .about-me .line{
+	width: 300px;
+	background-color: #ffffff;
+	height: 4px;
+}
+
+.about .about-me .line .in-line{
+	width: 80%;
+	height: 4px;
+	background-color: #d19999;
+	float: right;
+}
+
+.one, .three, .two{
+	background-color: #0f0e0e;
+	overflow: auto;
+}
+
+.one .one-cont, .three .three-cont{
+	background-color: #000000;
+	width: 1200px;
+	float: right;
+}
+
+.one .one-cont .number, .three .three-cont .number{
+	color: #d19999;
+	float: left;
+	width: 40%;
+	font-size: 150px;
+	margin: 0 auto;
+}
+
+.one .one-cont .number p, .three .three-cont .number p, .two .two-cont .number p{
+	padding-left: 150px;
+	text-indent: 10px;
+	padding-top: 0px;
+}
+
+.one .one-cont .image, .three .three-cont .image{
+	float: left;
+	width: 60%;
+}
+
+.one .one-cont .image img, .three .three-cont .image img{
+	float: right;
+	padding: 25px 50px 25px 0px;
+}
+
+.two .two-cont{
+	background-color: #000000;
+	width: 1200px;
+	float: left;
+}
+
+.two .two-cont .image{
+	width: 60%;
+	float: left;
+}
+
+.two .two-cont .image img{
+	padding: 25px 0 25px 50px;
+}
+
+.two .two-cont .number{
+	color: #d19999;
+	float: left;
+	width: 40%;
+	font-size: 150px;
+	margin: 0 auto;
+}
+
+.four{
+	background-color: #0f0e0e;
+	padding: 50px 0;
+}
+
+.four .images{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.four .images .img1{
+	margin-right: 70px;
+}
+
+.four .images .img2{
+	margin-right: 70px;
+}
+
+.contactme{
+	background-color: #000000;
+	color:white;
+	margin-top: 10px;
+	padding-bottom: 50px;
+	overflow: auto;
+}
+
+.contactme .contactinfo .contactwriting{
+	width: 450px;
+	float: left;
+}
+
+.contactme .form{
+	width: 450px;
+	float:right;
+}
+
+.contactme .form form{
+	width:440px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.contactme .form ul{
+	list-style: none;
+	padding:0px;
+	margin:0px;
+}
+
+.contactme .form label{
+	display:block;
+	margin-bottom: 10px;
+	padding-top: 20px;
+}
+
+.contactme .form input+label{
+	display:inline;
+}
+
+.contactme .form input{
+	width:440px;
+	height:40px;
+	background-color: #191717;
+	border: 0px;
+}
+
+.contactme .form input[name="Email"]{
+	height:150px;
+}
+
+.contactme .form input[type="submit"] {
+	width: 185px;
+	height: 40px;
+	margin-top: 40px;
+	background-color: #0f0e0e;
+	color: white;
+	font-weight: bold;
+	border-radius: 20px;
+}
